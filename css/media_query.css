@@ -1,0 +1,205 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+
+     #landing {
+          background-size: 100% 10%,
+               cover,
+               cover;
+          min-height: 100vh;
+     }
+
+     .text-landing-hello {
+          font-size: 36px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 22px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 3rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 48px;
+     }
+
+     #about {
+          padding: 1rem 0;
+     }
+
+     .image-content {
+          box-shadow: 10px 10px rgb(0, 6, 61) !important;
+     }
+
+     .text-title {
+          font-size: 44px;
+     }
+
+     #experiences {
+          background-size: 100% 3%,
+               100% 3%,
+               cover;
+          padding: 6rem 0;
+     }
+
+     .card-custom {
+          padding: 30px !important;
+     }
+
+     #skills {
+          padding: 2rem 0;
+     }
+
+     footer {
+          background-size: 100% 15%, cover;
+          padding-top: 2rem;
+     }
+}
+
+/* Small devices (Landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+
+     #landing {
+          background-size: 100% 10%,
+               cover,
+               cover;
+          min-height: 160vh;
+     }
+
+     .text-landing-hello {
+          font-size: 48px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 70px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 25px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 4rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 56px;
+     }
+
+     .col-res {
+          margin: 1rem 0;
+     }
+
+     #about {
+          padding: 1rem 0;
+     }
+
+     .text-title {
+          font-size: 48px;
+     }
+
+     #experiences {
+          background-size: 100% 4%,
+               100% 4%,
+               cover;
+          padding: 6rem 0;
+     }
+
+     .card-custom {
+          padding: 40px !important;
+     }
+
+     #skills {
+          padding: 3rem 0;
+     }
+
+     footer {
+          background-size: 100% 15%, cover;
+          padding-top: 2rem;
+     }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+     .navbar-brand-text {
+          font-size: 28px !important;
+     }
+
+     #landing {
+          min-height: 60vh;
+          height: 60vh;
+     }
+
+
+     .text-landing-hello {
+          font-size: 42px;
+          margin: 0;
+     }
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     .text-landing-greetings {
+          font-size: 20px;
+          font-weight: lighter;
+     }
+
+     #quote {
+          padding: 2rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 56px;
+     }
+
+     .col-res {
+          margin: 1rem 0;
+     }
+
+     #about {
+          padding: 2rem 0;
+     }
+
+     .text-title {
+          font-size: 48px;
+     }
+
+     #experiences {
+          background-size: 100% 6%,
+               100% 6%,
+               cover;
+          padding: 6rem 0;
+     }
+
+     .card-custom {
+          padding: 40px !important;
+     }
+
+     #skills {
+          padding: 3rem 0 2rem 0;
+     }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}

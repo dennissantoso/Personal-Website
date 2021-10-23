@@ -1,0 +1,165 @@
+/* Components */
+html {
+  scroll-behavior: smooth;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.button-link {
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
+  transition: 0.2s all ease;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.button-link-black {
+  border: 1px solid black !important;
+  color: black;
+  font-size: 18px;
+  padding: 10px 30px;
+  transition: 0.2s all ease;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  border: 1px solid rgb(201, 201, 201);
+  color: rgb(201, 201, 201);
+}
+
+.button-link-black:hover {
+  border: 1px solid rgb(66, 66, 66);
+  color: rgb(66, 66, 66);
+}
+
+.img-white {
+  filter: brightness(0) invert(1);
+}
+
+.hover-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.img-hover:hover>.hover-box {
+  opacity: 1 !important;
+  transition: 0.3s all ease;
+}
+
+.social-icon {
+  color: white;
+  padding: 10px;
+}
+
+/* NAVBAR */
+.navbar-home {
+  position: absolute !important;
+  top: 0;
+  background: transparent;
+  width: 100%;
+  color: white;
+}
+
+.navbar-home .nav-link {
+  font-size: 16px;
+  color: inherit;
+}
+
+.navbar-brand img {
+  height: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-hover {
+  padding: 0 20px;
+  transition: 0.3s all ease;
+}
+
+.navbar-home .nav-hover:hover>.nav-link {
+  color: rgb(201, 201, 201);
+}
+
+/* FOOTER */
+footer {
+  padding-top: 4rem;
+  background: rgb(41, 41, 41);
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-cover {
+  box-shadow: 20px 20px rgb(41, 41, 41);
+}
+
+.text-title {
+  font-size: 48px;
+}
+
+.sublanding {
+  padding: 10rem 0;
+  background: url('welcome.png') center center, rgb(0, 2, 17);
+  background-size: cover;
+}
+
+.text-landing-name {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+
+  .text-title {
+    font-size: 44px;
+  }
+
+  footer {
+    background-size: 100% 15%, cover;
+    padding-top: 2rem;
+  }
+}
+
+/* Small devices (Landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .text-title {
+    font-size: 48px;
+  }
+
+  footer {
+    background-size: 100% 15%, cover;
+    padding-top: 2rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .text-title {
+    font-size: 48px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}

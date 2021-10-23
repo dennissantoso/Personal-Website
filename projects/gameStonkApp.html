@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dennis Santoso - GameStonk Simulator</title>
+     <link rel="stylesheet" href="../css/bootstrap.css">
+     <link rel="stylesheet" href="../css/projects.css">
+     <script src="../js/bootstrap.js"></script>
+     <script src="https://kit.fontawesome.com/83eea9aadb.js" crossorigin="anonymous"></script>
+     <link rel="icon" type="image/png" href="../etc/myLogo.png" />
+</head>
+
+<body>
+     <nav class="navbar navbar-home navbar-expand-lg">
+          <div class="container">
+               <a class="navbar-brand" href="../index.html" style="filter: brightness(0)">
+                    <img src="../etc/myLogo.png" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_content"
+                    aria-controls="collapse_content" aria-expanded="false" aria-label="Open Collapse">
+                    <span class="navbar-toggler-icon mt-2">
+                         <i class="fa fa-bars"></i>
+                    </span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="collapse_content">
+                    <ul class="navbar-nav ms-auto text-center text-dark">
+                         <li class="nav-hover nav-item">
+                              <a href="../index.html" class="nav-link">HOME</a>
+                         </li>
+                         <li class="nav-hover nav-item">
+                              <a href="../experiences.html" class="nav-link">EXPERIENCES</a>
+                         </li>
+                         <li class="nav-hover nav-item">
+                              <a href="../projects.html" class="nav-link">PROJECTS</a>
+                         </li>
+                         <li class="nav-hover nav-item">
+                              <a href="#footer" class="nav-link">CONTACT</a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+
+     <main class="main">
+          <div class="project-details">
+               <div class="container">
+                    <h1 class="text-landing-name mb-4">
+                         GameStonk Simulator
+                    </h1>
+                    <h4 class="fw-light">GameStonk Simulator is a python application that won the sub-category (Hacker's Choice) for Hack at UCI 2021 using the library pygame.
+                         <br>
+                         <br>
+                         <br>
+                         Link Github: <a href="https://github.com/dennissantoso/GameStonk-Project-HackUCI-2021" target="_blank"
+                              class="text-dark">https://github.com/dennissantoso/GameStonk-Project-HackUCI-2021</a>
+                         <br>
+                         Link Devpost: <a href="https://devpost.com/software/gamestonk-simulator?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank"
+                              class="text-dark">https://devpost.com/software/gamestonk-simulator?ref_content=my-projects-tab&ref_feature=my_projects</a>
+                    </h4>
+
+                    <img src="../etc/gamestop_cover2.png" width="100%" alt="" class="image-space">
+
+                    <h4 class="fw-light mt-5"> A simulation of the rise of GameStop stock. Download the files, Pygame, and then run main.py</h4>
+                    <h3 class="fw-light mt-5"> Inspiration</h3>
+                    <h4 class="fw-light mt-5"> Over the past week, we've watched as we, as well as brothers and sisters, marched boldly to the front lines of what has now been called the Revolutionary War of Finance.
+                      They tried to halt us, they tried to scare us, and they even tried to shut us down, but we held the line. This movement led to many debts being paid off, led to many billionaire tears being collected,
+                      and deeply moved everyone on our team. We know that some people may have missed out on this opportunity of a lifetime,
+                      so we created a simulation of the meteoric rise of GameStonk so everyone can experience the thrill of blowing up the shorts and train their diamond hands. 💎✋🚀🚀🚀</h4>
+                    <h3 class="fw-light mt-5"> What it does</h3>
+                    <h4 class="fw-light mt-5"> Upon running the program, you are greeted with a menu page with scenery to prepare you for the ride of your life. Once you are ready, press start.
+                      As the music begins to fade, you see a familiar sight: the moon. As $GME begins to take off, you have the opportunity to buy (keyboard's up arrow) and to sell (keyboard's down arrow).
+                      Tip: Holding the arrows does the action in rapid succession. The goal is to have as much tendies as possible before $GME takes an unplanned detour back to earth.</h4>
+                    <h3 class="fw-light mt-5"> How we built it</h3>
+                    <h4 class="fw-light mt-5"> With Pygame, sweat, hedge fund tears, and good ol' elbow grease, our project came to life. We started with a massive portrait of the WSB logo and from there
+                      we learned to scale images, display text, accept inputs, play sounds, and control the flow of the program. Before long, the lightness of our canvas had been converted to dankness.</h4>
+                    <h3 class="fw-light mt-5"> Challenges we ran into</h3>
+                    <h4 class="fw-light mt-5"> When we set out for the moon, we didn't first plan out how our simulation would be organized. It was only when we had already reached the stratosphere (a game prototype) that we realized we needed to create a menu.
+                      The problem was that the flow of our program didn't account for such a thing as a menu. Like SpaceX's rockets, we had to come back down to earth and take apart our code in order to understand the essence of our control flow in order to allow for a menu.
+                      Once back in the skies, our normal understanding of a grid system became invalid, and after much struggle and recalculation, we finally understood Pygame's grid system and starting plotting assets with ease.
+                      Sound is different in space, so we had trouble getting the Pygame mixer to play music and sounds at the times we wanted. We ended up fixing this issue by mimicking the singleton pattern and creating different sound channels.
+                      Finally, the graph of our trajectory became too taxing on the computer to the point that the whole program came to a stall, but this issue was circumvented by skipping every few points in our graph once the graph became large.</h4>
+                    <h3 class="fw-light mt-5"> Accomplishments that we're proud of</h3>
+                    <h4 class="fw-light mt-5"> After looking at our finished project, we couldn't believe what we had accomplished, especially as this is the first hackathon for everyone on our team. We went from knowing very little about Pygame to being able to immortalize a meme in code.
+                      We think our GME graph is especially cool. We're all so excited that we actually completed something that we feel over the moon.</h4>
+                    <h3 class="fw-light mt-5"> What we learned</h3>
+                    <h4 class="fw-light mt-5"> Of course, we explored a good amount of what the Pygame library has to offer. We also learned a lot about different collaboration tools to keep us connected during times of separation, like VSCode Live Share and more advanced features of Zoom.</h4>
+                    <h3 class="fw-light mt-5"> What's next for GameStonk Simulator</h3>
+                    <h4 class="fw-light mt-5"> Next stop: Mars.</h4>
+
+                    <img src="../assets/project_nginepkuy_2.webp" width="100%" alt="" class="image-space">
+
+                    <div class="d-flex justify-content-center mt-5 py-5">
+                         <a href="../projects.html" class="button-link-black me-3">SEE ALL PROJECTS</a>
+                         <a href="rateApp.html" class="button-link-black">NEXT: Rate your heartbeat</a>
+                    </div>
+               </div>
+          </div>
+     </main>
+
+
+     <footer class="footer" id="footer">
+          <div class="footer-top">
+               <div class="container">
+                    <div class="row justify-content-center">
+                         <div class="col-lg-8 text-center">
+                              <h3 class="text-white mb-3">GET IN TOUCH</h3>
+                              <ul class="p-0 m-0 list-unstyled d-inline-flex justify-content-center">
+                                   <li class="social-icon">
+                                        <a href="mailto:13dennissantoso@gmail.com"
+                                             class="text-decoration-none text-reset" target="_blank">
+                                             <i class="fa fa-envelope fa-2x"></i>
+                                        </a>
+                                   </li>
+                                   <li class="social-icon">
+                                        <a href="https://www.linkedin.com/in/dennis-santoso-baa985187/"
+                                             class="text-decoration-none text-reset" target="_blank">
+                                             <i class="fa fa-linkedin fa-2x"></i>
+                                        </a>
+                                   </li>
+                                   <li class="social-icon">
+                                        <a href="https://github.com/dennissantoso" class="text-decoration-none text-white"
+                                             target="_blank">
+                                             <i class="fa fa-github fa-2x"></i>
+                                        </a>
+                                   </li>
+                              </ul>
+                              <p class="mt-2 text-muted">
+                                <a href="#" class="footer-link">HOME</a> |
+                                <a href="experiences.html" class="footer-link">EXPERIENCES</a> |
+                                <a href="projects.html" class="footer-link">PROJECTS</a>
+                              </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="footer-bottom">
+               <p class="m-0">Copyright &copy 2021 Dennis Santoso</p>
+          </div>
+     </footer>
+</body>
+
+</html>

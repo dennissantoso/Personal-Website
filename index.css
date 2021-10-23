@@ -1,0 +1,136 @@
+@import url('general.css');
+
+/* INDEX */
+#landing {
+     height: 110vh;
+     min-height: 110vh;
+     background: url('../etc/welcome.png') center center, rgb(0, 2, 17);
+     background-size: cover;
+}
+
+.text-landing-name {
+     color: white;
+}
+
+.text-landing-name {
+     font-size: 72px;
+     font-weight: bold;
+}
+
+#quote {
+     padding: 6rem 0;
+}
+
+#quote .text-quote {
+     text-align: center;
+     font-size: 65px;
+     padding: 1rem 0 2rem 0;
+     color: rgb(48, 48, 48);
+}
+
+#about {
+     padding: 2rem 0 8rem 0;
+}
+
+#about .image-content {
+     width: 100%;
+     border-radius: 15px;
+     box-shadow: 20px 20px rgb(0, 2, 17);
+}
+
+#skills {
+     padding: 5rem 0;
+     background: url('../etc/layer.png') bottom center no-repeat, #1f1f1f;
+     background-size: cover, cover;
+}
+
+#projects {
+     padding: 6rem 0 10rem 0;
+}
+
+#experiences {
+     padding: 6rem 0 2rem 0;
+}
+
+#skills img {
+     height: 70px;
+}
+
+@media (max-width: 575.98px) {
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     #quote {
+          padding: 3rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 48px;
+     }
+
+     #about {
+          padding: 1rem 0;
+     }
+
+     .image-content {
+          box-shadow: 10px 10px rgb(0, 6, 61) !important;
+     }
+}
+
+/* Small devices (Landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     #landing {
+          min-height: 160vh;
+     }
+
+
+     .text-landing-name {
+          font-size: 70px;
+          font-weight: bold;
+     }
+
+
+     #quote {
+          padding: 4rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 56px;
+     }
+
+     #about {
+          padding: 1rem 0;
+     }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+     #landing {
+          min-height: 60vh;
+          height: 60vh;
+     }
+
+     .text-landing-name {
+          font-size: 62px;
+          font-weight: bold;
+     }
+
+     #quote {
+          padding: 2rem 0;
+     }
+
+     #quote .text-quote {
+          font-size: 56px;
+     }
+
+     #about {
+          padding: 2rem 0;
+     }
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) {} */
