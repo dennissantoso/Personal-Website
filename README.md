@@ -1,2 +1,1 @@
-# Personal-Website
-my personal website
+![](etc/preview.png)
