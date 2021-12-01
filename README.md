@@ -1,1 +1,1 @@
-![](etc/preview.png)
+![](etc/preview.JPG)
